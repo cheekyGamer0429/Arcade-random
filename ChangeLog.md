@@ -1,0 +1,44 @@
+# Change log
+
+## Version 1.0.0 (February 14, 2026)
+
+### - Added
+
+- Login System
+- Ticket Redemption
+- Account Creadtion
+
+## Version 2.0.0 (February 15, 2026)
+
+### Added
+
+- Made the project loop
+
+## Version 2.0.1 (March 11, 2026)
+
+### Fixed
+
+- Fixed bugs while looping
+
+## Version 3.0.0 (March 12, 2026)
+
+- Restarted the code to make players values be saved.
+- No features have been added.
+
+## Version 4.0.0 (March 17, 2026)
+
+### Added
+
+- Data output
+- Output of options
+
+### Changed
+
+- Code of Login function
+- Maximum characters allowed in random password generator
+
+### Fixed
+
+- Bugs in Login
+
+  
