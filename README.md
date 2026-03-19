@@ -36,5 +36,5 @@ An arcade based project using keys from a random password generator. It focuses 
 <img width="995" height="356" alt="image" src="https://github.com/user-attachments/assets/e0dae5c9-fbed-4d64-8b82-3c485f4b547a" />
 
 - options(Dict)
-  -Displays options and makes you input the desired option.
+  - Displays options and makes you input the desired option.
   
