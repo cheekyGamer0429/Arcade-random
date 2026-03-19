@@ -2,11 +2,11 @@
 
 ## Version 1.0.0 (February 14, 2026)
 
-### - Added
+###  Added
 
 - Login System
 - Ticket Redemption
-- Account Creadtion
+- Account Creation
 
 ## Version 2.0.0 (February 15, 2026)
 
@@ -14,7 +14,7 @@
 
 - Made the project loop
 
-## Version 2.0.1 (March 11, 2026)
+## Version 2.1.0 (March 11, 2026)
 
 ### Fixed
 
