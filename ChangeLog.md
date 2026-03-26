@@ -41,4 +41,14 @@
 
 - Bugs in Login
 
-  
+## Version 5.0.0 (March 25, 2026)
+
+### Added
+
+- Account option
+- Redeem option
+- Log Out option
+
+### Fixed
+
+- Saving of logged in account
