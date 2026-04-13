@@ -29,10 +29,12 @@ An arcade based project using keys from a random password generator. It focuses 
 
 ## Installation
 
-- D
 - Download the .py file in the repository. Then open the file in Visual Studio Code or any python compiler
 
 ## Current Features
+
+- starting(dic)
+ - Lets user choose if they want to login, create account, or exit.
 
 - generate_password()
   - Creates a randomly generated password.
@@ -40,9 +42,25 @@ An arcade based project using keys from a random password generator. It focuses 
 - output_accs(Dict)
   - Outputs the information of all created accounts(username, password, and tickets).
 
-- acc_creation(Dict)
+- acc_creation(arr, dic)
   - Creates an account using users inputted username and a randomly generated password of the users inputted length.
 
 - options(Dict)
   - Displays options and makes you input the desired option.
-  
+
+- log_in(Dict)
+  - Logs into account based on inputted username and generated password.
+ 
+- account(arr)
+  - Displays account information.
+
+- redeem(arr)
+
+- games(arr, dic)
+  - Allows user to pick a game of their choice.
+
+- num_guess_game(arr, dic)
+  - A number guessing game.
+
+- output_board(arr)
+  - Displays tictactoe board.
