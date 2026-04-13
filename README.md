@@ -21,6 +21,12 @@ An arcade based project using keys from a random password generator. It focuses 
 - string library
   - Used to get all available characters.
 
+- random library
+  - Used to generate random numbers.
+    
+- time library
+  - Used to pause between program execution.
+
 ## Installation
 
 - D
