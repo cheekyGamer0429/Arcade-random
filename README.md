@@ -1,62 +1,85 @@
-# Arcade-random
+# Secure Ticket Redemption System with Random Password Generator
 
-### About The Project
+## Overview
+This is a Python-based arcade system that allows users to:
+- Create secure accounts with randomly generated passwords
+- Log in and manage tickets
+- Play mini-games to earn tickets
+- Redeem tickets for prizes
 
-An arcade based project using keys from a random password generator. It focuses on playing games to earn points to be later used in purchasing prizes. The project helps aids having saftey handling data in arcades.
+The system simulates a simple arcade experience with account handling and rewards.
 
-## Table of Contents
+---
 
-- [Technologies Used](#technologies-used)
+## Features
 
-- [Current Features](#current-features)
+### Account Management
+- Create a new account with a secure random password
+- Login system with username and password verification
+- View account details (username, password, tickets)
 
-## Technologies Used
+### Ticket System
+- Users start with 20 tickets
+- Earn tickets by playing games
+- Spend tickets to redeem prizes
 
-- Python
-  - Python is the main coding language used.
-    
-- secrets library
-  - Used to make random passwords and it to be more secure.
-    
-- string library
-  - Used to get all available characters.
+### Redemption System
+Users can exchange tickets for rewards:
+- Stuffed Toy → 15 tickets  
+- Keychain → 5 tickets  
+- Candy → 2 tickets  
 
-- random library
-  - Used to generate random numbers.
-    
-- time library
-  - Used to pause between program execution.
+---
 
-## Current Features
+## Games Available
 
-- starting(dic)
-  - Lets user choose if they want to login, create account, or exit.
+### 1. Number Guessing Game
+- Guess a number between 1–10
+- You have 3 attempts
+- Reward: +5 tickets if correct
 
-- generate_password()
-  - Creates a randomly generated password.
+### 2. Tic Tac Toe
+- Play against a bot
+- Random turn order (player or bot starts)
+- Reward: +5 tickets if you win
 
-- output_accs(Dict)
-  - Outputs the information of all created accounts(username, password, and tickets).
+---
 
-- acc_creation(arr, dic)
-  - Creates an account using users inputted username and a randomly generated password of the users inputted length.
+## Password Generator
+- Uses `secrets` module for strong randomness
+- Password length: 8–15 characters
+- Includes:
+  - Uppercase letters
+  - Lowercase letters
+  - Numbers
+  - Special characters
 
-- options(Dict)
-  - Displays options and makes you input the desired option.
+---
 
-- log_in(Dict)
-  - Logs into account based on inputted username and generated password.
- 
-- account(arr)
-  - Displays account information.
+## How It Works
 
-- redeem(arr)
+### Program Flow
+1. Start menu:
+   - Create account
+   - Log in
+2. After login:
+   - Account info
+   - Redeem tickets
+   - Play games
+   - Log out
 
-- games(arr, dic)
-  - Allows user to pick a game of their choice.
+---
 
-- num_guess_game(arr, dic)
-  - A number guessing game.
+## Data Structure
 
-- output_board(arr)
-  - Displays tictactoe board.
+User data is stored in a dictionary:
+
+```python
+users = {
+    "Username": {
+        "Password": "password",
+        "Tickets": 20
+    }
+}
+```
+"Windowwhile"
